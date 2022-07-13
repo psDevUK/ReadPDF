@@ -54,7 +54,7 @@ Copyright = '(c) psdevuk. All rights reserved.'
 # RequiredModules = @()
 
 # Assemblies that must be loaded prior to importing this module
-# RequiredAssemblies = @()
+ RequiredAssemblies = @("UglyToad.PdfPig.Core.dll","UglyToad.PdfPig.dll","UglyToad.PdfPig.DocumentLayoutAnalysis.dll","UglyToad.PdfPig.Fonts.dll","UglyToad.PdfPig.Package.dll","UglyToad.PdfPig.Tokenization.dll","UglyToad.PdfPig.Tokens.dll")
 
 # Script files (.ps1) that are run in the caller's environment prior to importing this module.
 # ScriptsToProcess = @()
@@ -66,7 +66,7 @@ Copyright = '(c) psdevuk. All rights reserved.'
 # FormatsToProcess = @()
 
 # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-NestedModules = @("UglyToad.PdfPig.Core.dll","UglyToad.PdfPig.dll","UglyToad.PdfPig.DocumentLayoutAnalysis.dll","UglyToad.PdfPig.Fonts.dll","UglyToad.PdfPig.Package.dll","UglyToad.PdfPig.Tokenization.dll","UglyToad.PdfPig.Tokens.dll")
+#NestedModules = @("UglyToad.PdfPig.Core.dll","UglyToad.PdfPig.dll","UglyToad.PdfPig.DocumentLayoutAnalysis.dll","UglyToad.PdfPig.Fonts.dll","UglyToad.PdfPig.Package.dll","UglyToad.PdfPig.Tokenization.dll","UglyToad.PdfPig.Tokens.dll")
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = '*'
@@ -101,10 +101,10 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+         ProjectUri = 'https://github.com/psDevUK/ReadPDF'
 
         # A URL to an icon representing this module.
-        # IconUri = ''
+         IconUri = 'https://raw.githubusercontent.com/psDevUK/ReadPDF/main/Icon.png'
 
         # ReleaseNotes of this module
          ReleaseNotes = 'A cmdlet to read the text within the specified PDF file'
@@ -123,7 +123,7 @@ PrivateData = @{
 } # End of PrivateData hashtable
 
 # HelpInfo URI of this module
-# HelpInfoURI = ''
+ HelpInfoURI = 'https://github.com/psDevUK/ReadPDF'
 
 # Default prefix for commands exported from this module. Override the default prefix using Import-Module -Prefix.
 # DefaultCommandPrefix = ''
